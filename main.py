@@ -31,4 +31,9 @@ print(f"Hey! I usually like cars, mostly classic ones. One of my favorite classi
 # So now when I make a new var car1 and assign the exsiting var as a value so now value will be the first value its going to merge 
 car1 = car
 
+print(car1)
 
+# type --- so if you programmed in javascript or java so you know about what is the typeof means basically typeof defines the datatype you are using in your vriable but in python there is short form of typeof that is (type)
+print(type(car))
+print(type(price))
+print(type(color))
