@@ -21,11 +21,14 @@ print("car") # This will assume that the user wants to print a string because it
 
 # now what is happening there is a computer stores the value in its memory they know what car value is 
 # Now if I want make a sentence out of it 
-print("hey I like the usually cars most mostly classic ones one of my favourite classic brand is ", car, "and I like all those classic", car,"who has color" color)
-# the 2n vrsion i learned 
+print("Hey I like the usual cars mostly classic ones one of my favorite classic brands is ", car, "and I like all those classic", car," who has color" color)
+# The 2n version I learned 
 # Then use them in the print statement
 print(f"Hey! I usually like cars, mostly classic ones. One of my favorite classic brands is {car}. "
       f"I like all those classic {car}s that have the color {color}.")
-# so when we give a variable car = mercedes so that means var have to save in memory that car is mercedes 
-# assignment opertor
+# So when we give a variable car = Mercedes so that means var has to save in memory that the car is Mercedes 
+# assignment operator
+# So now when I make a new var car1 and assign the exsiting var as a value so now value will be the first value its going to merge 
+car1 = car
+
 
