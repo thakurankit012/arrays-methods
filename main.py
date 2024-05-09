@@ -26,4 +26,6 @@ print("hey I like the usually cars most mostly classic ones one of my favourite 
 # Then use them in the print statement
 print(f"Hey! I usually like cars, mostly classic ones. One of my favorite classic brands is {car}. "
       f"I like all those classic {car}s that have the color {color}.")
+# so when we give a variable car = mercedes so that means var have to save in memory that car is mercedes 
+# assignment opertor
 
