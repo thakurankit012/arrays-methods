@@ -56,4 +56,11 @@ print(s % e)
 print(s ** e)
 print(s / e)
 
-#
+#relational operators 
+a = 3
+b = 4
+
+print(a == b) # false 
+print(a != b) # true ! = not basically
+
+
