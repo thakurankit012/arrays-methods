@@ -44,3 +44,16 @@ b = 20
 sum = a*b
 
 print(sum)
+# operators
+#arithmetc operators
+s = 23
+e = 43
+
+print(s + e)
+print(s * e)
+print(s - e)
+print(s % e)
+print(s ** e)
+print(s / e)
+
+#
