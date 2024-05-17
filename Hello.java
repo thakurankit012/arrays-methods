@@ -56,4 +56,10 @@ public class Calculator {
         operator = '-';
         result = calculate(num1, num2, operator);
         System.out.println("Sum 2 - 15.0 - 4.5: " + result);
+  // Multiplication: 3.0 * 2.5
+        num1 = 3.0;
+        num2 = 2.5;
+        operator = '*';
+        result = calculate(num1, num2, operator);
+        System.out.println("Sum 3 - 3.0 * 2.5: " + result);
 
