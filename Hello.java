@@ -68,5 +68,18 @@ public class Calculator {
         operator = '/';
         result = calculate(num1, num2, operator);
         System.out.println("Sum 4 - 20.0 / 4.0: " + result);
+ // Division by zero
+        num1 = 10.0;
+        num2 = 0.0;
+        operator = '/';
+        result = calculate(num1, num2, operator);
+        System.out.println("Sum 5 - 10.0 / 0.0: " + result);
 
+        // Invalid operator
+        num1 = 9.0;
+        num2 = 2.0;
+        operator = '?';
+        result = calculate(num1, num2, operator);
+        System.out.println("Sum 6 - 9.0 ? 2.0: " + result);
+    }
 
