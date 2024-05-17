@@ -50,4 +50,10 @@ public class Calculator {
         operator = '+';
         result = calculate(num1, num2, operator);
         System.out.println("Sum 1 - 12.5 + 7.3: " + result);
+ // Subtraction: 15.0 - 4.5
+        num1 = 15.0;
+        num2 = 4.5;
+        operator = '-';
+        result = calculate(num1, num2, operator);
+        System.out.println("Sum 2 - 15.0 - 4.5: " + result);
 
