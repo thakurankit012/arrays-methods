@@ -62,4 +62,11 @@ public class Calculator {
         operator = '*';
         result = calculate(num1, num2, operator);
         System.out.println("Sum 3 - 3.0 * 2.5: " + result);
+  // Division: 20.0 / 4.0
+        num1 = 20.0;
+        num2 = 4.0;
+        operator = '/';
+        result = calculate(num1, num2, operator);
+        System.out.println("Sum 4 - 20.0 / 4.0: " + result);
+
 
