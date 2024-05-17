@@ -43,3 +43,11 @@ public class Calculator {
         scanner.close(); // Closing scanner
     }
 }
+
+ // Addition: 12.5 + 7.3
+        num1 = 12.5;
+        num2 = 7.3;
+        operator = '+';
+        result = calculate(num1, num2, operator);
+        System.out.println("Sum 1 - 12.5 + 7.3: " + result);
+
