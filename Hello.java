@@ -87,3 +87,16 @@ public class Calculator {
         num1 = 9;
         num2 = 2;
        System.out.println(num1 + num2);
+
+class sums {
+
+    public static void main (strings[] args) {
+
+        int x = 8;
+        int y = 3;
+
+        result = x + y;
+
+        System.out.println(result);
+    }
+
