@@ -82,4 +82,8 @@ public class Calculator {
         result = calculate(num1, num2, operator);
         System.out.println("Sum 6 - 9.0 ? 2.0: " + result);
     }
+//normal alu sums
 
+        num1 = 9;
+        num2 = 2;
+       System.out.println(num1 + num2);
